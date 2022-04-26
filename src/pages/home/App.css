@@ -1,0 +1,17 @@
+.content {
+    height: 120px;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    user-select: none;
+  }
+
+  .topbanner {
+    height: 200px;
+    background-image: url('/public/assets/virus.jpg');
+    background-size: cover;
+    opacity: 0.75;
+}
+

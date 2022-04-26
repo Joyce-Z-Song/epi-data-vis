@@ -1,0 +1,60 @@
+.cotainer{
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 95%;
+}
+.imgBox{
+  position: relative;
+  font-weight: 700;
+  color: #ff4e3b;
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
+.circle{
+    width: 130px;
+    height: 130px;
+    border: 6px solid #ff4e3b;
+    border-radius: 65px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.explain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    line-height: 40px;
+    transform: translateX(-50%) translateY(-50%);
+}
+.result{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+.contenBox{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.desc{
+    font-size: 12px;
+    padding: 10px;
+    text-align: left;
+}
+.author{
+    font-size: 13px;
+    text-align: right;
+    padding-right: 10px;
+}
